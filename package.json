@@ -1,5 +1,5 @@
 {
-  "name": "vue_test",
+  "name": "atguigu_test_server",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,14 +8,26 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
+    "axios": "^0.27.2",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "element-ui": "^2.15.8",
+    "express": "^4.18.1",
+    "less-loader": "^7.3.0",
+    "nanoid": "^3.3.4",
+    "pubsub": "^3.2.1",
+    "pubsub-js": "^1.9.4",
+    "vue": "^2.6.11",
+    "vue-resource": "^1.5.3",
+    "vue-router": "^3.5.3",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.13",
     "@vue/cli-plugin-eslint": "~4.5.13",
     "@vue/cli-service": "~4.5.13",
     "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "vue-template-compiler": "^2.6.11"
@@ -38,5 +50,9 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "1.被用来给元素或子组件注册引用信息(id的替代者) 2.应用在html标签上获取的是真实DOM元素，应用在组件标签上是组件实例对象(vc) 3.使用方式：     打标识：<h1 ref=\"xxx\">……</h1>或<School ref=\"xxx\"></School>     获取:this.$refs.xxx",
+  "main": "babel.config.js",
+  "author": "",
+  "license": "ISC"
 }
